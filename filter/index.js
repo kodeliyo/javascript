@@ -1,11 +1,14 @@
 
-let arr = ["Test", "Mateo", "John"];
+const arr = ["Test", "Mateo", "John"];
 
-let arr2 = arr.filter(e => e.startsWith("T"));
+const arr2 = arr.filter(e => e.startsWith("T"));
 
-let arr3 = arr.filter(e => {
+const arr3 = arr.filter(e => {
   return e.startsWith("M");
-})
+});
+
+const arr4 = arr.filter(e => e.length <= 4);
 
 console.log(arr2);
 console.log(arr3);
+console.log(arr4);
